@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+  
+  
+  
+  font-family:'Poppins',sans-serif;
+}
+body{
+display:flex;
+justify-content:center;
+align-items:center;
+min-height:100vh;
+background:url('home1.jpg')no-repeat;
+background-size:cover;
+background-position:center;
+}
+
+
+header{
+  position:fixed;
+  top:0;
+  left:0px;
+  right:50px;
+  width:100%;
+  padding:30px 50px;
+  background:black;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  z-index:500;
+
+}
+.logo{
+  font-size:2em;
+  color:white;
+  user-select:none;
+}
+
+.navigation a{
+  position:relative;
+  text-decoration:none;
+  color:white;
+  font-weight:500;
+  margin-left:40px;
+}
+
+header a{
+  background-color:black;
+  color:aqua;
+
+}
+header a:hover{
+background-color: white;
+color:black;
+}
+header a{
+  font-size: 20px;
+}
+
+
